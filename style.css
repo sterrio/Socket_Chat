@@ -61,19 +61,22 @@ body {
 
 .chat .messages .message {
   display: inline-block;
-  margin-bottom: 15px;
+  margin: 5px 0;
   min-width: 30%;
   max-width: 60%;
   padding: 10px;
   background-color: red;
-  border-radius: 5px;
+  border-radius: 8px;
   clear: both;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
+.chat .messages .message_body {
+  display: block;
+}
 
 .chat .messages .message.left {
-  border-top-left-radius: 0px;
+  border-top-left-radius: 2px;
   display: block;
   color: #787373;
   background-color: #FBF8F4;
@@ -81,15 +84,16 @@ body {
 
 }
 
+
 .chat .messages .message.right {
-  border-top-right-radius: 0px;
-  display: block;
+  border-top-right-radius: 2px;
+  float: right;
   color: white;
   background-color: #9BC2BF;
   box-shadow: 0px 0px 15px rgba(155,194,191, 32);
 }
 
-.chat .messages .message_container .name {
+.chat .messages .message_full .name {
   display: block;
   color: rgba(187, 180, 180, 0.7);
   margin-bottom: 3px;
@@ -98,6 +102,7 @@ body {
   font-size: 11px;
 }
 
-.chat .messages .message_container {
+.chat .messages .message_full {
   display: block;
+  overflow:hidden;
 }
