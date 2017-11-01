@@ -48,6 +48,25 @@ body {
   color: #2f2f2f;
 }
 
+.chat .message_controls{
+  position: relative;
+}
+
+.chat .send{
+background-color: blue;
+color: white;
+position: absolute;
+bottom : 11px;
+right: 20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 4px;
+background-color: #E79191;
+
+}
+
 .chat .messages {
   color: white;
   font-size: 13px;
@@ -76,7 +95,7 @@ body {
 }
 
 .chat .messages .message.left {
-  border-top-left-radius: 2px;
+  border-top-left-radius: 1px;
   margin-left:5px;
   display: block;
   color: #787373;
