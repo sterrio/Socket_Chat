@@ -77,6 +77,7 @@ body {
 
 .chat .messages .message.left {
   border-top-left-radius: 2px;
+  margin-left:5px;
   display: block;
   color: #787373;
   background-color: #FBF8F4;
@@ -88,6 +89,7 @@ body {
 .chat .messages .message.right {
   border-top-right-radius: 2px;
   float: right;
+  margin-right:5px;
   color: white;
   background-color: #9BC2BF;
   box-shadow: 0px 0px 15px rgba(155,194,191, 32);
