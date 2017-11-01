@@ -8,6 +8,9 @@
     console.log(data);
     socket.emit('my other event','jarret says hi back - message for server');
   });
+  socket.on('servermessage', function(data) {
+    console.log(data)
+  })
   function send(data) {
     socket.emit('message', data)
   }
