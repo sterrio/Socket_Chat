@@ -1,0 +1,103 @@
+* {
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EFE9E6;
+}
+
+.container {
+
+}
+
+.chat {
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 2px 12px rgba(0,0,0, 0.10);
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 700px;
+  height: 500px;
+}
+
+.chat .new_message {
+  position: absolute;
+  right: 10px;
+  left: 10px;
+  height: 40px;
+  bottom: 8px;
+}
+
+.chat .new_message input::-webkit-input-placeholder { color:#cccccc;}
+.chat .new_message input::-moz-placeholder { color:#cccccc; } /* firefox 19+ */
+.chat .new_message input:-ms-input-placeholder { color:#cccccc; } /* ie */
+.chat .new_message input:-moz-placeholder { color:#cccccc; }
+
+.chat .new_message input {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0 10px;
+  font-size: 20px;
+  width: calc(100% - 10px);
+  height: 100%;
+  color: #2f2f2f;
+}
+
+.chat .messages {
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  top: 0px;
+  bottom: 55px;
+  left: 10px;
+  right: 10px;
+  overflow: scroll;
+}
+
+.chat .messages .message {
+  display: inline-block;
+  margin-bottom: 15px;
+  min-width: 30%;
+  max-width: 60%;
+  padding: 10px;
+  background-color: red;
+  border-radius: 5px;
+  clear: both;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.chat .messages .message.left {
+  border-top-left-radius: 0px;
+  display: block;
+  color: #787373;
+  background-color: #FBF8F4;
+  box-shadow: 0px 0px 23px rgba(212,212,212, 0.68);
+
+}
+
+.chat .messages .message.right {
+  border-top-right-radius: 0px;
+  display: block;
+  color: white;
+  background-color: #9BC2BF;
+  box-shadow: 0px 0px 15px rgba(155,194,191, 32);
+}
+
+.chat .messages .message_container .name {
+  display: block;
+  color: rgba(187, 180, 180, 0.7);
+  margin-bottom: 3px;
+  margin-top: 5px;
+  margin-left: 1px;
+  font-size: 11px;
+}
+
+.chat .messages .message_container {
+  display: block;
+}
