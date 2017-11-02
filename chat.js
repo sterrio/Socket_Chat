@@ -1,8 +1,9 @@
 (function() {
   // socket.io implementation
-  var socket = io('http://localhost:8080', {
+  var socket = io('http://192.168.0.17:8080', {
     query: "user=jarret"
   })
+
   socket.connect() // establish a connection
 
   // listen for message_update

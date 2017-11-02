@@ -24,9 +24,3 @@
 
   window.addEventListener('load', initialize);
 })()
-
-
-  // A $( document ).ready() block.
-  $(document).ready(function() {
-
-  });
