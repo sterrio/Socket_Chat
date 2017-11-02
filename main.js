@@ -12,12 +12,12 @@
       if (e.keyCode == 13) {
         window.app.send($('.new_message input').val())
       }
-      if ($(this).val() == "") window.app.hideSend()
+      if ($(this).val() == "") window.app.forwardSend()
     });
 
     $('.send_icon').on("click", function() {
       window.app.send($('.new_message input').val())
-      window.app.hideSend()
+      window.app.forwardSend()
     })
 
   }

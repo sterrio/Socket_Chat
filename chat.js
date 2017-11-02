@@ -34,10 +34,9 @@ socket._Timeout = 2000
 
   function send(data) {
     if (data != ""){
-    addMessageToChat(null, data)
-    socket.emit('message', data)
-    $('.new_message input').val("")
-    console.log
+      addMessageToChat(null, data)
+      socket.emit('message', data)
+      $('.new_message input').val("")
     }
   }
 
