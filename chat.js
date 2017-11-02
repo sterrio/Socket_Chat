@@ -5,19 +5,20 @@
   })
 
   socket.connect() // establish a connection
+socket._Timeout = 2000
+
+  setTimeout(function(){
+    if(socket.connected == false){
+      window.app.statusUpdate(false)
+    }
+  }, 1000)
 
   socket.on("connect", function(){
-
-  $(".status").css("background-color", "#53DA4C")
-  $(".status").fadeIn(1000)
+      window.app.statusUpdate(true)
   })
 
   socket.on("disconnect", function(){
-
-    console.log
-    $(".status").fadeOut(1000)
-    $(".status").css("background-color", "#da4c4c")
-    $(".status").fadeIn(1000)
+    window.app.statusUpdate(false)
   })
 
   // listen for message_update
