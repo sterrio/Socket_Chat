@@ -16,10 +16,14 @@
   })
 
   // send message to server
+
   function send(data) {
+    if (data != ""){
     addMessageToChat(null, data)
     socket.emit('message', data)
     $('.new_message input').val("")
+    console.log
+    }
   }
 
   // function specific global variables
