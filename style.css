@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #E3E8ED;
+  background-color: #a7b1c1;
 }
 
 .chat {
@@ -51,7 +51,7 @@ body {
   font-size: 13px;
   position: absolute;
   top: 0px;
-  bottom: 55px;
+  bottom: 65px;
   left: 10px;
   right: 10px;
   overflow: scroll;
