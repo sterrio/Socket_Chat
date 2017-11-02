@@ -21,8 +21,18 @@ body {
 }
 
 .chat .new_message {
-  background-color: blue;
   height: 60px;
+}
+
+.send_icon {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0;right: -88%;
 }
 
 .chat .new_message input::-webkit-input-placeholder { color:#cccccc;}
@@ -31,6 +41,7 @@ body {
 .chat .new_message input:-moz-placeholder { color:#cccccc; }
 
 .chat .new_message input {
+  position: relative;
   border: none;
   outline: none;
   float: left;
@@ -38,11 +49,12 @@ body {
   font-size: 16px;
   background-color: #F6FAFB;
   height: 100%;
-  box-shadow: 0px 2px 4px rgba(0,0,0, 0.08);
+  box-shadow: 0px 2px 5px rgba(0,0,0, 0.14);
   margin: 0 10px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 55px;
   border-radius: 2px;
-  width: calc(100% - 20px - 30px);
+  width: calc(100% - 20px - 15px - 55px);
   color: #2f2f2f;
 }
 

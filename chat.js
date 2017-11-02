@@ -18,6 +18,7 @@
   function send(data) {
     addMessageToChat(null, data)
     socket.emit('message', data)
+    $('.new_message input').val("")
   }
 
   // function specific global variables
