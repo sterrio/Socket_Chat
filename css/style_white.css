@@ -4,8 +4,14 @@
   padding: 0;
 }
 
+html, body, .container {
+  height: 100%;
+}
+
 body {
-  background-color: #f2f0f0;
+  /*f2f0f0*/
+  /*5552ce*/
+  background-color: #5552ce;
 }
 
 .chat {
@@ -13,7 +19,7 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 40px;
-  width: 700px;
+  max-width: 700px;
   height: 500px;
 }
 
@@ -25,11 +31,8 @@ body {
   display: none;
   cursor: pointer;
   position: absolute;
-  width: 40%;
-  height: 40%;
-  overflow: auto;
-  margin: auto;
-  top: 0; left: 0; bottom: 0;right: -88%;
+  bottom: 14px;
+  right: 28px;
 }
 
 .chat .new_message input::-webkit-input-placeholder { color:#cccccc;}
@@ -74,7 +77,7 @@ body {
 .chat .messages .message {
   display: inline-block;
   word-wrap: break-word;
-  margin: 5px 0;
+  margin: 2px 0;
   min-width: 30%;
   max-width: 60%;
   padding: 10px;
@@ -150,4 +153,12 @@ body {
   border-radius: 10px;
   top: 0px;
   display: none;
+}
+
+@media screen and (max-width: 530px) {
+  .chat {
+    height: calc(100% - 10px);
+    margin-top: 10px;
+  }
+
 }

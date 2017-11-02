@@ -31,13 +31,13 @@
   function forwardSend() {
     console.log('here')
     $('.send_icon').animate({
-      right: '-95%',
+      right: '10px',
       opacity: 0
     }, 200, function() {
       $(this).css({
         display: "none",
         opacity: 1,
-        right: "-88%"
+        right: "28px"
     })
 
 
