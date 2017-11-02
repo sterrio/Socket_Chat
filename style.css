@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: #c1b2a7;
+  background-color: #e9e9e9;
 }
 
 .chat {
   position: relative;
   border-radius: 5px;
   box-shadow: 0px 2px 17px rgba(0,0,0, 0.15);
-  background-color: #f5f2f0;
+  background-color: #ffffff;
   display: block;
   margin: 0 auto;
   margin-top: 40px;
@@ -47,9 +47,9 @@ body {
   float: left;
   display: inline-block;
   font-size: 16px;
-  background-color: #F6FAFB;
+  background-color: #ffffff;
   height: 100%;
-  box-shadow: 0px 2px 5px rgba(0,0,0, 0.14);
+  box-shadow: 0px 3px 8px rgba(0,0,0, 0.25);
   margin: 0 10px;
   padding-left: 15px;
   padding-right: 55px;
@@ -89,8 +89,8 @@ body {
   border-bottom-left-radius: 0px;
   display: block;
   color: #3A3E3E;
-  background-color: #F6FAFB;
-  box-shadow: 0px 1px 3px rgba(0,0,0, 0.1);
+  background-color: #fBf9f9;
+  box-shadow: 0px 2px 3px rgba(0,0,0, 0.08);
 
 }
 
@@ -98,8 +98,8 @@ body {
   border-bottom-right-radius: 0px;
   float: right;
   color: white;
-  background-color: #b95151;
-  box-shadow: 0px 0px 5px rgba(200,20,80, 0.2);
+  background-color: #e25252;
+  box-shadow: 0px 1px 3px rgba(200,20,0, 0.2);
 }
 
 .chat .messages .message_full .name {
@@ -136,4 +136,15 @@ body {
 
 .server {
   opacity: 0.3;
+}
+
+.status {
+  background-color: #53DA4C;
+  position: absolute;
+  right: -20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  top: 0px;
+
 }

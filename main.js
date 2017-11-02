@@ -1,6 +1,9 @@
 (function() {
   window.app = {}
   function initialize() {
+    $(document).on("keypress", function(e) {
+      $('.new_message input').focus()
+    })
     // user wants to send chat message
     $('.new_message input').on("keyup", function(e) {
       if (!$('.send_icon').is(':visible')) {
