@@ -111,3 +111,16 @@ body {
   left: 0;
   right: 0px;
 }
+
+.server_message {
+  z-index: 1;
+  color: black;
+  width: 100%;
+  display: block;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.server {
+  opacity: 0.3;
+}
