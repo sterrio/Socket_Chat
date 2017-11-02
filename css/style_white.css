@@ -40,6 +40,7 @@ body {
 .chat .new_message input {
   position: relative;
   border: none;
+  border: 1px solid rgba(0,0,0,0.05);
   outline: none;
   float: left;
   display: inline-block;
@@ -140,6 +141,7 @@ body {
 }
 
 .status {
+  border: 1px solid #ba3b3b;
   background-color: #da4c4c;
   position: absolute;
   right: -12px;

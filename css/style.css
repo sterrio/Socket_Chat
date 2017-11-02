@@ -39,7 +39,6 @@ body {
 
 .chat .new_message input {
   position: relative;
-  border: none;
   outline: none;
   float: left;
   display: inline-block;

@@ -1,10 +1,13 @@
 (function() {
 
   function statusUpdate(on) {
-    if (on) color = "#53DA4C"
-    else color = "#da4c4c"
+    if (on) { color = "#53DA4C"; border = "#4fd548"}
+    else { color = "#da4c4c"; border = "#d04949" }
     $(".status").fadeOut(500, function(){
-      $(".status").css("background-color", color)
+      $(".status").css({
+        "background-color": color,
+        "border-color": border
+      })
       $(".status").fadeIn(500)
     })
   }
@@ -24,7 +27,7 @@
       animateTo:-180
     })
   }
-  
+
   function forwardSend() {
     console.log('here')
     $('.send_icon').animate({
