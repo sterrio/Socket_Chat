@@ -1,4 +1,4 @@
-# Socket.Io-Client [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Socket.IO-Client [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 This client program is a demo application for socket.io and what it can be used for. The library can be found [here.](https://github.com/socketio/socket.io)
 
 ## Description
