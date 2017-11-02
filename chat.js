@@ -6,6 +6,20 @@
 
   socket.connect() // establish a connection
 
+  socket.on("connect", function(){
+
+  $(".status").css("background-color", "#53DA4C")
+  $(".status").fadeIn(1000)
+  })
+
+  socket.on("disconnect", function(){
+
+    console.log
+    $(".status").fadeOut(1000)
+    $(".status").css("background-color", "#da4c4c")
+    $(".status").fadeIn(1000)
+  })
+
   // listen for message_update
   socket.on('message_update', function(data) {
     addMessageToChat(data['user'], data['msg'])
