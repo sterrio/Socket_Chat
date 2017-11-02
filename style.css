@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: #a7b1c1;
+  background-color: #c1b2a7;
 }
 
 .chat {
   position: relative;
   border-radius: 5px;
   box-shadow: 0px 2px 17px rgba(0,0,0, 0.15);
-  background-color: #e9ecf2;
+  background-color: #f5f2f0;
   display: block;
   margin: 0 auto;
   margin-top: 40px;
@@ -78,7 +78,7 @@ body {
   display: block;
   color: #3A3E3E;
   background-color: #F6FAFB;
-  /*box-shadow: 0px 1px 3px rgba(0,0,0, 0.1);*/
+  box-shadow: 0px 1px 3px rgba(0,0,0, 0.1);
 
 }
 
@@ -86,7 +86,8 @@ body {
   border-bottom-right-radius: 0px;
   float: right;
   color: white;
-  background-color: #544EA7;
+  background-color: #b95151;
+  box-shadow: 0px 0px 5px rgba(200,20,80, 0.2);
 }
 
 .chat .messages .message_full .name {
