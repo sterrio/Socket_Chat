@@ -78,7 +78,7 @@ body {
   display: inline-block;
   word-wrap: break-word;
   margin: 2px 0;
-  min-width: 30%;
+  min-width: 35%;
   max-width: 60%;
   padding: 10px;
   border-radius: 12px;
@@ -93,10 +93,9 @@ body {
 .chat .messages .message.left {
   border-bottom-left-radius: 0px;
   display: block;
+  float: left;
   color: #2d2a2a;
   background-color: #dcdcdc;
-
-
 }
 
 .chat .messages .message.right {

@@ -5,7 +5,7 @@
   })
 
   socket.connect() // establish a connection
-socket._Timeout = 2000
+  socket._Timeout = 2000
 
   setTimeout(function(){
     if(socket.connected == false){
