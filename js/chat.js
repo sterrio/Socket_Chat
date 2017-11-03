@@ -1,6 +1,6 @@
 (function() {
   // socket.io implementation
-  var socket = io('http://localhost:8080', {
+  var socket = io('http://dalschedulebuilder.com:8081', {
     query: "user=jarret"
   })
 
