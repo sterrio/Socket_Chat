@@ -1,7 +1,16 @@
 (function() {
-  // socket.io implementation
+  // socket.io ""implementation
+
+
+ tName =  window.prompt("Please enter your Nickname..", "Nickname")
+
+  if (tName == null || tName == "") {
+      window.alert("Your name has been set to default")
+      tName = "User"
+  }
+
   var socket = io('http://dalschedulebuilder.com:8081', {
-    query: "user=jarret"
+    query: "user=temp"
   })
 
   socket.connect() // establish a connection
