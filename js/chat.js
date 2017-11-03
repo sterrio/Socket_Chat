@@ -2,7 +2,7 @@
   // socket.io ""implementation
 
 
- tName =  window.prompt("Please enter your Nickname..", "Nickname")
+ tName =  window.prompt("Please enter your Nickname..", "")
 
   if (tName == null || tName == "") {
       window.alert("Your name has been set to default")
