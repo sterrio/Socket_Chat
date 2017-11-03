@@ -10,8 +10,10 @@
   }
 
   var socket = io('http://dalschedulebuilder.com:8081', {
-    query: "user=temp"
+    query: "user=" + tName
   })
+
+
 
   socket.connect() // establish a connection
   socket._Timeout = 2000
