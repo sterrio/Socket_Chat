@@ -1,14 +1,6 @@
 (function() {
   // socket.io ""implementation
 
-
- tName =  window.prompt("Please enter your Nickname..", "")
-
-  if (tName == null || tName == "") {
-      window.alert("Your name has been set to default")
-      tName = "User"
-  }
-
   var socket = io('http://dalschedulebuilder.com:8081', {
     query: "user=" + tName
   })

@@ -8,6 +8,15 @@ body {
   background-color: #5f28a3;
 }
 
+.Username{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 700px;
+  height: 500px;
+}
+
 .chat {
   position: relative;
   display: block;
