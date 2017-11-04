@@ -13,8 +13,6 @@
     query: "user=" + tName
   })
 
-
-
   socket.connect() // establish a connection
   socket._Timeout = 2000
 
@@ -37,8 +35,8 @@
     addMessageToChat(data['user'], data['msg'])
   })
 
-  socket.on('joined', function(data) {
-    addMessageToChat(null, null, data['user'] + " joined the chat.")
+  socket.on('server_message', function(data) {
+    addMessageToChat(null, null, data)
   })
 
   // send message to server
