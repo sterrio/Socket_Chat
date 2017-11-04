@@ -18,39 +18,43 @@ body {
 
   position: relative;
   display: block;
-  background-color: #ececec;
+  background-color: white;
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 170px;
   max-width: 400px;
-  height: 200px;
+  height: 150px;
   border-radius: 5px;
 }
 
 .User-welcome{
 
+  color: #646060;
   position: absolute;
   margin: 0 10px;
-  margin-top: -180px;
+  margin-top: -140px;
   margin-left: 450px;
   display: inline-block;
 
 }
 
-.Username{
+.Username input::-webkit-input-placeholder { color:#cccccc;}
+.Username input::-moz-placeholder { color:#cccccc; } /* firefox 19+ */
+.Username input:-ms-input-placeholder { color:#cccccc; } /* ie */
+.Username input:-moz-placeholder { color:#cccccc; }
 
+.Username input{
+
+  font-size: 16px;
   position: absolute;
   margin: 0 10px;
   margin-top: -40px;
-  margin-left: 500px;
+  margin-left: 450px;
   display: inline-block;
+  border: none;
   padding-left: 15px;
   padding-right: 55px;
   border-radius: 2px;
-  outline: none;
-  border: none;
   box-shadow: 0px 3px 8px rgba(0,0,0, 0.25);
-  background-color: color: #2f2f2f;
-
 }
 
 .chat {
