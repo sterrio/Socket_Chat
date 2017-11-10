@@ -30,5 +30,5 @@ The main features we wanted to include through developement stayed consistent, b
 * Chat bubble bug (width issue)
 
 ## TODO
-* User name selection when joining
-* Socket heartbeat time out shortened (rigth now it's way too long)
+* User name selection when joining (In progress - design finished)
+* Socket heartbeat time out shortened (right now it's way too long)
